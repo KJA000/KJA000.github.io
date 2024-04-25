@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+        }
+        
+        header {
+            font-family: Consolas, monospace;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        nav {
+            font-family: Consolas, monospace;
+            text-align: center; /* 우측 정렬로 수정 */
+            margin-bottom: 50px;
+        }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: normal;
+            margin-right: 20px;
+        }
+        
+        nav a:hover {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        nav a:last-child {
+            margin-right: 0; /* 마지막 링크의 오른쪽 간격 제거 */
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 40px;
+            display: flex;
+            background-color: #fff;
+            color: #333;
+        }
+        
+        .left {
+            flex: 1;
+            padding: 20px;
+        }
+        
+        .right {
+            flex: 2;
+            padding: 20px;
+        }
+        
+        img {
+            max-width: 100%;
+            border-radius: 50%;
+        }
+        
+        h1 {
+            margin-top: 0;
+        }
+        
+        h2 {
+            margin-bottom: 5px;
+            color: #000;
+            font-size: 25px;
+            font-family: Consolas, monospace;
+        }
+        
+        h3 {
+            margin-bottom: 5px;
+            color: #000;
+            font-family: Consolas, monospace;
+            font-size: 18px;
+        }
+        
+        p {
+            font-family: Consolas, monospace;
+        }
+        
+        p2 {
+            white-space: pre-line;
+            font-family: Consolas, monospace;
+            line-height: 1.5;  
+        }
+        
+        mini {
+            font-family: Consolas, monospace;
+            font-size: 12px;
+            margin-top: 1px;
+            line-height: 1.5;
+            display: block;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .project {
+            margin-top: 20px;
+        }
+        
+        .name {
+            display: flex;
+            align-items: center;
+        }
+        
+        .name h2 {
+            margin: 0;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Jiae Kim</h1>
+</header>
+
+<nav>
+    <a href="./index.html">Introduction</a>
+    <a href="./contact.html">Contact</a>
+</nav>
+
+<div class="container">
+    <div class="left">
+        <img src="./assets/증명사진.png" alt="Photo">
+    </div>
+    <div class="right">
+        <div class="name">
+            <h2>About Me</h2>
+        </div>
+        <p>Hello World! I'm Jiae Kim and currently an undergraduate student majoring in computer engineering.</p>
+        <p></p>
+        <h2>Interested</h2>
+        <p>- System Programming</p>
+        <p>- Embedded Programming</p>
+        <p>- Back-End/Full-Stack Programming</p>
+        <h2>Careers</h2>
+        <p>- KyungHee Univ.     2021.03 ~ 2025.07</p>
+        <p>- Compiler & Operationg System Lab    2023.07 ~ 2024.04</p>
+        <p>- Etas KR Intern    2024.01 ~ 2024.06</p>
+        <h2>Publishes</h2>
+        <p2>- TinySeg: Model Optimizing Framework for Image Segmentation on Tiny Embedded Systems</p2><br>
+        <mini>Byungchul Chae, Jiae Kim and Seonyeong Heo</mini>
+        <mini>25th ACM SIGPLAN/SIGBED Conference on Languages, Compilers, Tools, and Theory for Embedded Systems (LCTES), June 2024.</mini>
+    </div>
+</div>
+<footer style="text-align: center;"><div><p>CopyRight &copy;
+KJA000</p></div>
+</footer>
+</body>
+</html>

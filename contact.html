@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+        }
+        
+        header {
+            font-family: Consolas, monospace;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        
+        nav {
+            font-family: Consolas, monospace;
+            text-align: center; /* 우측 정렬로 수정 */
+            margin-bottom: 50px;
+        }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: normal;
+            margin-right: 20px;
+        }
+        
+        nav a:hover {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        nav a:last-child {
+            margin-right: 0; /* 마지막 링크의 오른쪽 간격 제거 */
+        }
+        
+        
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 40px;
+            display: flex;
+            background-color: #fff;
+            color: #333;
+        }
+        
+        .left {
+            flex: 1;
+            padding: 20px;
+        }
+        
+        .right {
+            flex: 2;
+            padding: 20px;
+        }
+        
+        img {
+            max-width: 100%;
+            border-radius: 10%;
+        }
+        
+        h1 {
+            margin-top: 0;
+        }
+        
+        h2 {
+            margin-bottom: 5px;
+            color: #000;
+            font-size: 25px;
+            font-family: Consolas, monospace;
+        }
+        
+        h3 {
+            background-color: transparent;
+            border: none;
+            color: #000;
+            font-size: inherit;
+            font-family: Consolas, monospace;
+            padding: 0;
+        }
+        
+        p {
+            font-family: Consolas, monospace;
+        }
+        
+        p2 {
+            white-space: pre-line;
+            font-family: Consolas, monospace;
+            line-height: 1.5;  
+        }
+        
+        mini {
+            font-family: Consolas, monospace;
+            font-size: 12px;
+            margin-top: 1px;
+            line-height: 1.5;
+            display: block;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .project {
+            margin-top: 20px;
+        }
+        
+        .name {
+            display: flex;
+            align-items: center;
+        }
+        
+        .name h2 {
+            margin: 0;
+            margin-right: 10px;
+        }
+
+        /* 추가된 스타일 */
+        .github-link {
+            background-color: transparent;
+            border: none;
+            color: #000;
+            cursor: pointer;
+            font-size: inherit;
+            font-family: Consolas, monospace;
+            text-decoration: underline;
+            padding: 0;
+        }
+
+        .github-link:focus {
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Portfolio</h1>
+</header>
+
+<nav>
+    <a href="./index.html">Introduction</a>
+    <a href="./contact.html">Contact</a>
+</nav>
+
+<div class="container">
+    <div class="left">
+        <img src="./assets/contact.png" alt="Photo">
+    </div>
+    <div class="right">
+        <h2>Git Hub</h2>
+            <!-- 버튼에 링크 추가 -->
+            <button class="github-link" onclick="window.location.href='https://github.com/KJA000'">https://github.com/KJA000</button><br>
+            <h2>Email</h2>
+            <!-- 버튼에 링크 추가 -->
+            <p>kja090500@naver.com</p>
+            <p>higina0905127@gmail.com</p>
+    </div><br>
+    
+    
+</div>
+<footer style="text-align: center;"><div><p>CopyRight &copy;
+KJA000</p></div>
+</footer>
+</body>
+</html>
